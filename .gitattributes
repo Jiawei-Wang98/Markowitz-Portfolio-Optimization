@@ -1,2 +1,7 @@
+# Ignore Jupyter Notebook files in language statistics
+*.ipynb linguist-documentation
+*.ipydb linguist-documentation
+
+# Ensure C++ files are recognized correctly
 *.cpp linguist-language=C++
-*.py linguist-language=Python
+*.h linguist-language=C++
